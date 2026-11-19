@@ -1,4 +1,4 @@
-# Dispensa - medicine counting and inventory
+# SmartMed - Medicine Monitoring with Smart Scale for Medicine Counting
 
 Student proof of concept extending the installed Laravel Livewire starter kit. One physical scale, one balance per medicine, staff-confirmed replacement counts, and read-only adjustment history. No sales, batches, locations, or dispensing verification.
 
