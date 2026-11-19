@@ -1,0 +1,2 @@
+@props(['title','description'=>''])
+<div class="flex flex-wrap items-start justify-between gap-4 pb-8"><div><flux:heading size="xl" level="1">{{ $title }}</flux:heading><flux:text class="mt-2 max-w-2xl">{{ $description }}</flux:text></div>{{ $slot }}</div>

@@ -1,0 +1,27 @@
+[     675ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/login:89
+[   19014ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/dashboard:88
+[  103111ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/dashboard:88
+[  103248ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/medicines:88
+[  103404ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock:88
+[  103570ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/calibration-profiles:88
+[  103680ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-history:88
+[  103804ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/users:88
+[  103837ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://127.0.0.1:8765/users:1
+[  104555ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/inventory-settings:88
+[  125299ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/dashboard:88
+[  125405ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/medicines:88
+[  125533ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock:88
+[  125645ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/users:88
+[  125676ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://127.0.0.1:8765/users:1
+[  125780ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/inventory-settings:88
+[  145700ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock:88
+[  182648ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:8765/login:1
+[  182668ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ :8
+[  185981ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/login:89
+[  196294ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/login:89
+[  203334ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock?simulation=1:88
+[  238807ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock?simulation=1:88
+[  239532ms] [ERROR] Failed to load resource: the server responded with a status of 422 (Unprocessable Content) @ http://127.0.0.1:8765/livewire-6516f303/update:1
+[  239548ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ :8
+[  282586ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-stock?simulation=1:88
+[  474460ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8765/_boost/browser-logs @ http://127.0.0.1:8765/count-history:88

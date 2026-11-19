@@ -1,0 +1,39 @@
+# Use a REST client that supports .http variables. Replace placeholders locally.
+@base = http://127.0.0.1:8765/api/v1/device
+@device = esp32-01
+@credential = PASTE_GENERATED_CREDENTIAL_LOCALLY
+
+### Discover authorized active session and pending profile (200)
+GET {{base}}/commands
+Accept: application/json
+X-Device-ID: {{device}}
+Authorization: Bearer {{credential}}
+
+### Initial boot telemetry (200 once; identical repeat is 422)
+POST {{base}}/readings
+Accept: application/json
+Content-Type: application/json
+X-Device-ID: {{device}}
+Authorization: Bearer {{credential}}
+
+{"device_id":"esp32-01","boot_id":"11111111-1111-4111-8111-111111111111","sequence":0,"calibration_session_id":"22222222-2222-4222-8222-222222222222","applied_profile_id":null,"applied_profile_version":null,"tare_revision":null,"calibration_stage":"new","current_raw":100000,"current_tare_raw":null,"estimated_count":null,"stable":false,"calibrated":false,"firmware_version":"integration-test"}
+
+### Capture only after ordered tared/one_sample/ten_sample/ready telemetry.
+# Replace session and latest ready sequence from the running device.
+POST {{base}}/calibrations
+Accept: application/json
+Content-Type: application/json
+X-Device-ID: {{device}}
+Authorization: Bearer {{credential}}
+
+{"device_id":"esp32-01","counting_session_id":"33333333-3333-4333-8333-333333333333","boot_id":"11111111-1111-4111-8111-111111111111","sequence":4,"calibration_session_id":"22222222-2222-4222-8222-222222222222","tare_raw":100000,"one_piece_raw":99874.5,"ten_piece_raw":98745}
+
+### Ack only after the staff loads a profile and the device safely applies it.
+# Replace command/profile/version with GET /commands response.
+POST {{base}}/commands/44444444-4444-4444-8444-444444444444/ack
+Accept: application/json
+Content-Type: application/json
+X-Device-ID: {{device}}
+Authorization: Bearer {{credential}}
+
+{"device_id":"esp32-01","boot_id":"11111111-1111-4111-8111-111111111111","profile_id":1,"profile_version":1,"calibration_session_id":"55555555-5555-4555-8555-555555555555","success":true,"error":null}

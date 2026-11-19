@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Model;
+
+#[Fillable(['name', 'stale_seconds', 'offline_seconds'])]
+class ApplicationSetting extends Model
+{
+    public $timestamps = false;
+
+    /** @return array<string, string> */
+    protected function casts(): array
+    {
+        return [];
+    }
+}

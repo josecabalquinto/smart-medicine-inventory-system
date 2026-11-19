@@ -1,0 +1,67 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e2]:
+    - generic [ref=f24e3]:
+      - link "Dispensa Inventory" [ref=f24e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/dashboard
+        - text: Dispensa
+        - generic [ref=f24e8]: Inventory
+      - button "Toggle sidebar" [ref=f24e11]
+    - generic [ref=f24e14]: Medicine counting & inventory
+    - navigation [ref=f24e15]:
+      - link "Dashboard" [ref=f24e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/dashboard
+      - link "Medicines" [ref=f24e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/medicines
+      - link "Count Stock" [ref=f24e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/count-stock
+      - link "Calibration Profiles" [ref=f24e35] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/calibration-profiles
+      - link "Count History" [ref=f24e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/count-history
+      - link "Users" [ref=f24e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/users
+      - link "Settings" [ref=f24e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/inventory-settings
+    - generic [ref=f24e60]: Estimates support stock checks. Always confirm medicine identity and review the count.
+    - button "AD Admin Demo" [ref=f24e62]:
+      - generic [ref=f24e63]: AD
+      - generic [ref=f24e66]: Admin Demo
+  - banner [ref=f24e71]:
+    - button "Toggle sidebar" [ref=f24e72]
+    - generic [ref=f24e75]: Dispensa
+  - generic [ref=f24e77]:
+    - generic [ref=f24e78]:
+      - generic [ref=f24e79]:
+        - heading "Dispensary" [level=1] [ref=f24e80]
+        - paragraph [ref=f24e81]: A considered view of your medicine inventory.
+      - link "Count Stock" [ref=f24e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:8765/count-stock
+    - generic [ref=f24e86]:
+      - generic [ref=f24e87]:
+        - paragraph [ref=f24e88]: Active medicines
+        - paragraph [ref=f24e89]: "4"
+      - generic [ref=f24e90]:
+        - paragraph [ref=f24e91]: Low-stock medicines
+        - paragraph [ref=f24e92]: "0"
+      - generic [ref=f24e93]:
+        - paragraph [ref=f24e94]: Not counted yet
+        - paragraph [ref=f24e95]: "4"
+    - generic [ref=f24e96]:
+      - generic [ref=f24e97]:
+        - generic [ref=f24e98]:
+          - generic [ref=f24e99]: Recent confirmed counts
+          - link "View history" [ref=f24e100] [cursor=pointer]:
+            - /url: http://127.0.0.1:8765/count-history
+        - generic [ref=f24e102]:
+          - generic [ref=f24e105]: Your first count starts here
+          - paragraph [ref=f24e106]: Register a medicine, prepare the scale, and confirm the complete stock balance. Live readings never change inventory on their own.
+      - generic [ref=f24e107]:
+        - generic [ref=f24e108]:
+          - generic [ref=f24e109]: Scale connection
+          - generic [ref=f24e110]: Disconnected
+          - paragraph [ref=f24e112]: The scale continues local calibration and counting when Wi-Fi is unavailable.
+        - generic [ref=f24e113]:
+          - generic [ref=f24e114]: Needs attention
+          - paragraph [ref=f24e116]: No confirmed low-stock balances.
+  - generic:
+    - status

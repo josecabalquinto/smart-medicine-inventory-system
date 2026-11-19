@@ -1,0 +1,1 @@
+@if($errors->any())<div role="alert" class="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">@foreach($errors->all() as $error)<p wire:key="error-{{ $loop->index }}">{{ $error }}</p>@endforeach</div>@endif
